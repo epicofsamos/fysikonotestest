@@ -1,8 +1,67 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: "ΦΥΣΙΚΟ"
+description: "Αρχείο Σημειώσεων Φυσικής"
 theme: just-the-docs
+url: "fysikowix.xyz" # Replace with your actual domain later
 
-url: https://just-the-docs.github.io
+# Site settings
+lang: "el"
+permalink: pretty
 
+# Greek language settings
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Αρχική Σελίδα": "/"
+
+# Color scheme - matching your Wix site's academic blue theme
+color_scheme: "blue"
+
+# Header and footer content
+footer_content: "Αρχείο Σημειώσεων Φυσικής &copy; 2024"
+
+# Navigation structure - exactly matching your Wix site
+nav:
+  - title: "Αρχική Σελίδα"
+    url: "/"
+  - title: ""
+    url: "/examino1"
+    children: 
+  - title: "Εξάμηνο 2" 
+    url: "/examino2"
+  - title: "Εξάμηνο 3"
+    url: "/examino3"
+  - title: "Εξάμηνο 4"
+    url: "/examino4"
+  - title: "Εξάμηνο 5"
+    url: "/examino5"
+  - title: "Εξάμηνο 6"
+    url: "/examino6"
+  - title: "Εξάμηνο 7"
+    url: "/examino7"
+  - title: "Εξάμηνο 8"
+    url: "/examino8"
+
+# Search settings
+search_enabled: true
+search.heading: "Αναζήτηση"
+
+# Callouts styling
+callbacks:
+  - head
+  - body
+
+# Footer last edited
+last_edit_timestamp: true
+last_edit_time_format: "%b %e, %Y at %I:%M %p"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Επιστροφή στην κορυφή"
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
